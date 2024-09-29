@@ -15,9 +15,9 @@ Imagine capturing a screenshot, instantly proving the website it came from, and 
 
 ## What challenges are you building for?
 *See hackmidwest.com/#prizes for challenge details*
-- [X]  Pinata Challenge
+- ✅  Pinata Challenge
 - [ ]  Pinata AI Challenge
-- [X]  Pinata Enterprise Challenge
+- ✅  Pinata Enterprise Challenge
 - [ ]  AWS Bedrock Challenge
 - [ ]  Red Hat | Intel AI Challenge
 - [ ]  Zoom Challenge
