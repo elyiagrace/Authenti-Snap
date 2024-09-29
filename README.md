@@ -1,7 +1,6 @@
 # Welcome to Hack Midwest 2024!
 <br /><br />
 
-
 ## Getting Started
 Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 - ✅  Clone this repository and rename to the name of your app or idea
@@ -13,7 +12,7 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 ---
 
 **Made by**: Ellia Morse || ellia@ku.edu || elyiagrace  
-**Bio**: Ellia is a senior at the University of Kansas, majoring in computer science with a focus on creating innovative tech solutions.
+**Bio**: Ellia is a senior at the University of Kansas, majoring in computer science
 
 ---
 
