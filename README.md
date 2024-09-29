@@ -27,17 +27,16 @@ Imagine capturing a screenshot, instantly proving the website it came from, and 
 
 ---
 #Instructions - Tested on Windows <br /><br />
-Confirm Python3 is installed<br /><br />
-Create a virtual enviroment using: python -m venv testEnv<br /><br />
-On the same level as your test enviroment: testEnv\Scripts\activate<br /><br />
-Now that you are in your virtual enviroment: pip install -r requirements.txt<br /><br />
-<br /><br />
-Now within Command Prompt: "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome_debug"<br /><br />
-Now go to Pinata and get your API key and Secret key. You'll want to replace the dummy text in screenshot_processor.py<br /><br />
-From here, run main_app.py!!<br /><br />
-Select "snip" then drag your mouse over your Chrome window to select your area for screenshot<br /><br />
-This will automatically capture, hash, and appear in IPFS!<br /><br />
-<br /><br />
+1. Confirm Python3 is installed<br /><br />
+2. Create a virtual enviroment using: python -m venv testEnv<br /><br />
+3. On the same level as your test enviroment: testEnv\Scripts\activate<br /><br />
+4. Now that you are in your virtual enviroment: pip install -r requirements.txt<br /><br />
+5. Now within Command Prompt: "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome_debug"<br /><br />
+6. Now go to Pinata and get your API key and Secret key. You'll want to replace the dummy text in screenshot_processor.py<br /><br />
+7. From here, run main_app.py!!<br /><br />
+8. Select "snip" then drag your mouse over your Chrome window to select your area for screenshot<br /><br />
+9. This will automatically capture, hash, and appear in IPFS!<br /><br />
+10. (Optional) Give yourself a pat on the back, you deserve it!
 <br /><br />
 
 Notes: 
