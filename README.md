@@ -8,13 +8,11 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 <br /><br />
 ---
 **Made by**: Ellia Morse || ellia@ku.edu || elyiagrace  
-**Bio**: Ellia is a senior at the University of Kansas, majoring in computer science
 ---
 
 # Authenti-Snap 🔒💻  
 Imagine capturing a screenshot, instantly proving the website it came from, and locking it down as verifiable proof—no hassle, no fuss. That’s exactly what **Authenti-Snap** does! Think of it as a notary for your screenshots. It securely captures the screenshot, date-time stamp, and website metadata, storing everything using the InterPlanetary File System (IPFS) for seamless integration with blockchain tech. It’s secure, accurate, and tamper-proof. Whether you’re sharing paystubs with your bank 🏦, preparing for a tech-risk audit 📊, maintaining compliance records 📑, or protecting intellectual property 💡, **Authenti-Snap** is the ultimate web3 solution for digital proof.
 
----
 ## What challenges are you building for?
 *See hackmidwest.com/#prizes for challenge details*
 - [X]  Pinata Challenge
@@ -26,3 +24,22 @@ Imagine capturing a screenshot, instantly proving the website it came from, and 
 - [ ]  USDA Challenge
 - [ ]  brAIn Rot Challenge
 <br /><br />
+
+---
+#Instructions - Tested on Windows
+Confirm Python3 is installed
+Create a virtual enviroment using: python -m venv testEnv
+On the same level as your test enviroment: testEnv\Scripts\activate
+Now that you are in your virtual enviroment: pip install -r requirements.txt
+
+Now within Command Prompt: "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome_debug"
+Now go to Pinata and get your API key and Secret key. You'll want to replace the dummy text in screenshot_processor.py
+From here, run main_app.py!!
+Select "snip" then drag your mouse over your Chrome window to select your area for screenshot
+This will automatically capture, hash, and appear in IPFS!
+
+
+Notes: 
+We launch a chrome debug menu because we want to enable external tools (Selenium) to interact with Chrome’s internal APIs. This is done for tasks such as inspecting, automating, or controlling web pages, which would normally require manual interaction through Chrome’s Developer Tools. In our case, we use this to read the URL
+
+
