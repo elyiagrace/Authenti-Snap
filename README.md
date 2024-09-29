@@ -1,5 +1,4 @@
 # Welcome to Hack Midwest 2024!
-<br /><br />
 ## Getting Started
 Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 - ✅  Clone this repository and rename to the name of your app or idea
