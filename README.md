@@ -4,28 +4,20 @@
 
 ## Getting Started
 Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
-1. Clone this repository and rename to the name of your app or idea
-2. Make it **private**
-3. Add pr@kcitp.com as a user
-4. Populate the Team, App & Challenges info below and update as needed
+- [X]   Clone this repository and rename to the name of your app or idea 
+- [ ]  Make it **private** - Unable to change the privacy of a fork
+- [X]  Add pr@kcitp.com as a user - invited as a collaborator
+- [ ]  Populate the Team, App & Challenges info below and update as needed
+
+<br />Made by:<br />
+ Ellia Morse  || ellia@ku.edu  || elyiagrace
+
 
 <br /><br />
-
-## Who's on your team?
-*List the full names,  email address & Github username of your teammates*
- **Ellia Morse**  || **ellia@ku.edu**  || **elyiagrace**
-
 
 <br />Authenti-Snap<br />
-
-
-## What is the name of your App?
-
-<br /><br />
 ## What does your app do?
-*Describe in a paragraph or so*
-
-<br /><br />
+Imagine capturing a screenshot, instantly recording the website it came from, and being able to lock it down as verifiable proof without any hassle. That's what Authenti-Snap does! It’s like having a notary for your screenshots. It's secure, accurate, and tamper-proof due to the encrypted hash that tracks the screenshot, date-time stamp, and website metadata. Everything is stored safely using Interplanetary File System (IPFS) for future integration with blockchain technologies. Whether it’s for documenting legal proof for a SOX audit, storing your diploma, or sharing paystubs, Authenti-Snap is the perfect web3 solution.
 
 
 ## What challenges are you building for? SELECT ALL THAT APPLY
