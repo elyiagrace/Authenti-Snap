@@ -26,18 +26,19 @@ Imagine capturing a screenshot, instantly proving the website it came from, and 
 <br /><br />
 
 ---
-#Instructions - Tested on Windows
-Confirm Python3 is installed
-Create a virtual enviroment using: python -m venv testEnv
-On the same level as your test enviroment: testEnv\Scripts\activate
-Now that you are in your virtual enviroment: pip install -r requirements.txt
-
-Now within Command Prompt: "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome_debug"
-Now go to Pinata and get your API key and Secret key. You'll want to replace the dummy text in screenshot_processor.py
-From here, run main_app.py!!
-Select "snip" then drag your mouse over your Chrome window to select your area for screenshot
-This will automatically capture, hash, and appear in IPFS!
-
+#Instructions - Tested on Windows <br /><br />
+Confirm Python3 is installed<br /><br />
+Create a virtual enviroment using: python -m venv testEnv<br /><br />
+On the same level as your test enviroment: testEnv\Scripts\activate<br /><br />
+Now that you are in your virtual enviroment: pip install -r requirements.txt<br /><br />
+<br /><br />
+Now within Command Prompt: "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\temp\chrome_debug"<br /><br />
+Now go to Pinata and get your API key and Secret key. You'll want to replace the dummy text in screenshot_processor.py<br /><br />
+From here, run main_app.py!!<br /><br />
+Select "snip" then drag your mouse over your Chrome window to select your area for screenshot<br /><br />
+This will automatically capture, hash, and appear in IPFS!<br /><br />
+<br /><br />
+<br /><br />
 
 Notes: 
 We launch a chrome debug menu because we want to enable external tools (Selenium) to interact with Chrome’s internal APIs. This is done for tasks such as inspecting, automating, or controlling web pages, which would normally require manual interaction through Chrome’s Developer Tools. In our case, we use this to read the URL
