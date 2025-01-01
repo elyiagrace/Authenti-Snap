@@ -1,11 +1,5 @@
 # Welcome to Hack Midwest 2024!
-## Getting Started
-Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
-- ✅  Clone this repository and rename to the name of your app or idea
-- 🚫   Make it **private** - Unable to change the privacy of a fork
-- ✅  Add pr@kcitp.com as a user
-- ✅ Populate the Team, App & Challenges info below and update as needed
-<br /><br />
+
 ---
 **Made by**: Ellia Morse || ellia@ku.edu || elyiagrace  
 ---
